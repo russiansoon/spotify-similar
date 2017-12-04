@@ -1,0 +1,58 @@
+.search {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    font-family: $font-source;
+    margin: 20px 10px;
+}
+
+.info {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 100;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    outline: none;
+    transition: all 100ms ease-in-out;
+    font-family: $font-source;
+    font-size: 20px;
+    color: $color-main;
+    font-weight: 100;
+
+    &:hover,
+    &:active,
+    &:focus {
+        border: 1px solid $color-link;
+    }
+}
+
+.send {
+    background: rgba(70, 142, 219, 0.8);
+    border: 0;
+    padding: 10px;
+    color: #fff;
+    font-family: $font-source;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+    line-height: 1;
+    transition: all 150ms ease-in;
+
+    &:hover,
+    &:active,
+    &:visited,
+    &:focus {
+        outline: none;
+        background: rgba(70, 142, 219, 1);
+    }
+}

@@ -1,0 +1,17 @@
+.block {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    line-height: 1;
+}
+
+.logo {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+.text {
+    display: block;
+    line-height: 2;
+}

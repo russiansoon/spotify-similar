@@ -1,0 +1,48 @@
+.block {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 100;
+    font-family: $font-source;
+    width: 100%;
+    flex: 0 0 auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.09);
+    position: relative;
+    background: url('./images/bg.jpg') no-repeat 50% 70%;
+    background-size: cover;
+
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.link {
+    text-decoration: none;
+}
+
+.info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    span {
+        line-height: 1;
+    }
+}
+
+.logo {
+    max-width: 100px;
+    max-height: 100%;
+    margin-left: 5px;
+    margin-top: 5px;
+}

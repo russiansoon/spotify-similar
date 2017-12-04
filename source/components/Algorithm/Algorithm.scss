@@ -1,0 +1,20 @@
+.block {
+    font-family: $font-source;
+}
+
+.main {
+    font-weight: 100;
+    font-size: 32px;
+}
+
+.list {
+    font-size: 22px;
+    font-weight: 100;
+    padding: 0;
+
+    li {
+        &:hover {
+            color: $color-link;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.block {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.container {
+    background: red;
+}
+
+.item {
+
+}
+
+.link {
+    cursor: pointer;
+    transition: all 100ms ease-in;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    margin: 0 10px;
+    color: $color-main;
+    text-decoration: none;
+
+    &:hover {
+        border-bottom: 1px solid $color-link;
+        color: $color-link;
+    }
+}
