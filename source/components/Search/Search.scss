@@ -2,8 +2,10 @@
     display: flex;
     justify-content: flex-start;
     align-self: center;
+    flex-flow: column;
     font-family: $font-source;
     margin: 20px 10px;
+    text-align: center;
 }
 
 .info {
@@ -18,6 +20,13 @@
     align-self: center;
 }
 
+.icon {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    color: rgba(70, 142, 219, 0.4);
+}
+
 .input {
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 5px;
@@ -27,12 +36,20 @@
     font-size: 20px;
     color: $color-main;
     font-weight: 100;
+    width: 500px;
+    height: 50px;
+    position: relative;
+    background: transparent;
 
     &:hover,
     &:active,
     &:focus {
         border: 1px solid $color-link;
     }
+}
+
+.find {
+    position: relative;
 }
 
 .send {

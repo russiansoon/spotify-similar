@@ -4,6 +4,9 @@ import styles from './Search.scss'
 
 import reqWrapper from '../../helped/Request'
 
+import FontAwesome from 'react-fontawesome'
+import faStyles from 'font-awesome/css/font-awesome.css'
+
 export default class Search extends Component {
     constructor(props) {
         super(props)
@@ -39,21 +42,23 @@ export default class Search extends Component {
         return (
             <div className={styles.search}>
                 <form action="" className={styles.form}>
-                    <input
-                        type="text"
-                        value={this.state.song}
-                        onChange={this.onChange} 
-                        name="name"
-                        className={styles.input}
-                        placeholder="Type a song title"
-                    />
-                    
-                    <input
-                        type="submit"
-                        onClick={this.handleSearch}
-                        className={styles.send}
-                        value="Search"
-                    />
+                    <div className={styles.find}>
+                        <FontAwesome
+                            name='search'
+                            cssModule={faStyles}
+                            size='2x'
+                            className={styles.icon}
+                        />
+                          
+                        <input
+                            type="text"
+                            value={this.state.song}
+                            onChange={this.onChange} 
+                            name="name"
+                            className={styles.input}
+                            placeholder="Type a song title"
+                        /> 
+                    </div>
                 </form>
             </div>   
         )

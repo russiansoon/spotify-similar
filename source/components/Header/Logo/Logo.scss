@@ -1,8 +1,7 @@
 .block {
     display: flex;
     justify-content: center;
-    align-self: center;
-    line-height: 1;
+    align-items: center;
 }
 
 .logo {
@@ -12,6 +11,8 @@
 }
 
 .text {
-    display: block;
-    line-height: 2;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1;
+    text-transform: uppercase;
 }

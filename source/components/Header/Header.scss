@@ -1,14 +1,13 @@
 .wrapper {
     background: rgba(0, 0, 0, 0.05);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 30px 10px;
+    padding: 10px;
     color: $color-main;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: $font-source;
-    font-weight: 100;
-    font-size: 26px;
+    font-size: 20px;
+    font-weight: 300;
     box-shadow: 0 0 35px -5px rgba(0, 0, 0, 0.3);
     flex: 1 0 auto;
     margin-bottom: 20px;
