@@ -78,6 +78,7 @@ module.exports = {
     ],
 
     devServer: {
+        host: 'spotifysimilar.local',
         contentBase: './dist', // boolean | string | array, static file location
         hot: true, // hot module replacement, depends on HotModuleReplacementPlugin
         inline: true,  // build messages will appear in the browser console (true), false - iframe mode
